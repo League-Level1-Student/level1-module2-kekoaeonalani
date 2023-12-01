@@ -1,9 +1,27 @@
 package _01_sea_creature;
 
 public class SeaCreatureRunner {
-SeaCreature spongeBob = new SeaCreature("Sponge Bob");
-SeaCreature patrick = new SeaCreature("Patrick");
-SeaCreature squidward= new SeaCreature("Squidward");
+
+
+public static void main(String[]arg0) {
+	SeaCreature bob = new SeaCreature("Sponge Bob");
+	SeaCreature pat = new SeaCreature("Patrick");
+	SeaCreature sq= new SeaCreature("Squidward");
+	
+	
+	bob.getName();
+	pat.getName();
+	sq.getName();
+	
+	bob.eat();
+	pat.eat();
+	sq.eat();
+	
+	bob.laugh();
+	pat.laugh();
+	sq.laugh();
+}
+
 
 
 }

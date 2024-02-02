@@ -12,16 +12,38 @@ public class Minion {
 			this.eyes = eyes;
 			this.color = color;
 			this.master = master;
+			
 		}
+		
+	
 		
 		public String getName (){
-			return ("this minion's name is " + name);
+			return (name);
 		}
-		public String getEyes() {
-			return ("this minion has " + eyes);
-		}
-		public String getColor() {
-			return("this minion's color is "+ color);
+		void setName(String name) {
+			this.name = name;
 		}
 		
+		public int getEyes() {
+			return eyes;
+		}
+		
+		void setEyes(int eyes) {
+			this.eyes = eyes;
+		}
+		public String getColor() {
+			return(color);
+		}
+		
+		void setColor(String color) {
+			this.color = color;
+		}
+		
+		public String getMaster() {
+			return(master);
+		}
+		void setMaster(String master) {
+			this.master = master;
+		}
+
 }
